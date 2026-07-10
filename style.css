@@ -13,6 +13,10 @@
     font-weight: bold;
 }
 
+.color-gray{
+    color: #575757;
+}
+
 /* Navbar */
 nav{
     display: flex;
@@ -109,4 +113,137 @@ header p{
 .speaker-info p{
     font-size: 14px;
     color: #575757;
+}
+
+/* Secure your spot */
+.section-secure-spot{
+    display: grid;
+    justify-content: center;
+}
+.secure-spot-header{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.secure-spot-header h2{
+    font-size: 48px;
+    color: #0D1B2A;
+    margin-bottom: 12px;
+}
+
+/* Price Card */
+/* .price-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.price-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 32px;
+    display: grid;
+    gap: 20px;
+}
+.pro-card{
+    background-color: #0D1B2A;
+}
+.standard-card{
+    background-color: white;
+}
+.team-card{
+    background-color: #F8F9FB;
+}
+.price-card h3{
+    font-size: 44px;
+}
+.standard-card h3, .team-card h3{
+    color:#0D1B2A;
+}
+.pro-card h3{
+    color:white;
+}
+.price-card h5{
+    font-weight: 600;
+}
+.standard-card h5, .standard-card p, .team-card h5, .team-card p{
+    color: #888888;
+}
+.pro-top{
+    color: #93C5FD;
+}
+.pro-head-bottom{
+    color: rgba(255, 255, 255, 0.5);
+}
+.price-card ul{
+    padding-left: 18px;
+    display: grid;
+    gap: 10px;
+}
+.price-card ul li{
+    font-size: 14px;
+}
+.standard-card ul li{
+    color: #333333;
+}
+.pro-card ul li{
+    color: rgba(255, 255, 255, 0.8);
+}
+.price-card ul li::marker{
+    color: #2563EB;
+}
+
+.standard-card hr, .team-card hr{
+    color: #E5E7EB;
+}
+.pro-card hr{
+    background: #ffffff1A;;
+}
+.price-card button{
+    padding: 11px 0px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn-standard{
+    border: 1px solid #2563EB;
+    background-color: white;
+    color: #2563EB;
+} */
+
+
+/* Footer */
+footer{
+    background-color: #0D1B2A;
+    padding: 40px 10%;
+    display: grid;
+    gap: 30px;
+}
+.footer-top, .footer-top>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-top p{
+    color: white;
+    font-size: 20px;
+}
+
+.footer-social div{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.footer-social div img{
+    width: 15px;
+    height: 15px;
+    margin-top: 8px;
+}
+
+footer p{
+    text-align: center;
+    color: white;
 }
