@@ -75,4 +75,38 @@ header p{
 .section-speakers h2{
     text-align: center;
     font-size: 56px;
+    margin-bottom: 56px;
+}
+
+.speakers-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+.speaker{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+}
+.speaker div img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.speaker-info{
+    padding: 24px;
+    display: grid;
+    gap: 8px;
+}
+.speaker-info h5{
+    font-size: 12px;
+    font-weight: 600;
+    color: #2563EB;
+}
+.speaker-info h3{
+    font-size: 20px;
+    color: #0D1B2A;
+}
+.speaker-info p{
+    font-size: 14px;
+    color: #575757;
 }
