@@ -251,3 +251,259 @@ footer p{
     text-align: center;
     color: white;
 }
+
+
+/* Section AI */
+  .sponsors-section {
+    background: #ffffff;
+    color: #07152f;
+    padding: 80px 24px;
+  }
+
+  .sponsors-container {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+
+  .sponsors-intro {
+    max-width: 720px;
+    margin: 0 auto 56px;
+    text-align: center;
+  }
+
+  .sponsors-eyebrow {
+    color: #2457f5;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0 0 14px;
+  }
+
+  .sponsors-title {
+    color: #000000;
+    font-size: 46px;
+    font-weight: 800;
+    margin: 0 0 18px;
+  }
+
+  .sponsors-description {
+    color: #33415c;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .sponsor-group {
+    margin: 0 0 64px;
+  }
+
+  .sponsor-group-title {
+    color: #000000;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 0 28px;
+  }
+
+  .platinum-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .platinum-card {
+    background: #ffffff;
+    border: 1px solid #dce3ee;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px #dce3ee;
+    padding: 36px;
+    text-align: center;
+  }
+
+  .platinum-logo {
+    width: 100%;
+    max-width: 170px;
+    margin: 0 auto 26px;
+    object-fit: contain;
+  }
+
+  .platinum-name {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0 0 12px;
+  }
+
+  .platinum-description {
+    color: #46536b;
+    font-size: 16px;
+    margin: 0 0 22px;
+  }
+
+  .partner-label {
+    display: flex;
+    width: 150px;
+    margin: 0 auto;
+    padding: 10px 16px;
+    background: #e9efff;
+    color: #2457f5;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gold-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 22px;
+  }
+
+  .gold-card {
+    display: flex;
+    background: #ffffff;
+    border: 1px solid #dce3ee;
+    border-radius: 16px;
+    padding: 30px 24px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gold-card-content {
+    width: 100%;
+  }
+
+  .gold-logo {
+    width: 100%;
+    max-width: 120px;
+    margin: 0 auto 20px;
+    object-fit: contain;
+  }
+
+  .gold-name {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .community-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 18px;
+  }
+
+  .community-card {
+    display: flex;
+    background: #f7f9fc;
+    border: 1px solid #e2e7ef;
+    border-radius: 14px;
+    padding: 26px 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .community-logo {
+    width: 100%;
+    max-width: 105px;
+    object-fit: contain;
+  }
+
+  .sponsor-cta {
+    display: flex;
+    background: #07152f;
+    color: #ffffff;
+    border-radius: 22px;
+    padding: 46px;
+    gap: 28px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .sponsor-cta-content {
+    max-width: 680px;
+  }
+
+  .sponsor-cta-title {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0 0 12px;
+  }
+
+  .sponsor-cta-text {
+    color: #d6deec;
+    font-size: 17px;
+    margin: 0;
+  }
+
+  .sponsor-button {
+    background: #2457f5;
+    color: #ffffff;
+    border: 1px solid #2457f5;
+    border-radius: 10px;
+    padding: 15px 24px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  @media (max-width: 850px) {
+    .sponsors-title {
+      font-size: 38px;
+    }
+
+    .gold-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .community-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .sponsor-cta {
+      display: grid;
+      grid-template-columns: 1fr;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .sponsor-button {
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .sponsors-section {
+      padding: 60px 18px;
+    }
+
+    .sponsors-title {
+      font-size: 34px;
+    }
+
+    .platinum-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .gold-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .community-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .platinum-card {
+      padding: 30px 22px;
+    }
+
+    .sponsor-cta {
+      padding: 36px 24px;
+    }
+
+    .sponsor-cta-title {
+      font-size: 27px;
+    }
+  }
