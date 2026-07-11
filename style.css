@@ -13,9 +13,6 @@
     font-weight: bold;
 }
 
-.color-gray{
-    color: #575757;
-}
 
 /* Navbar */
 nav{
@@ -115,8 +112,110 @@ header p{
     color: #575757;
 }
 
+/* Pricing Section */
+.pricing-section{
+    display: grid;
+    justify-content: center;
+}
+.pricing-header{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.pricing-header h2{
+    font-size: 48px;
+    color: #0D1B2A;
+    margin-bottom: 12px;
+}
+.pricing-header p{
+    color: #575757;
+}
+/* Price Card */
+.price-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+.price-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pro{
+    background-color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}
+.team{
+    background-color: #F8F9FB;
+}
+.plan, .person{
+    font-size: 13px;
+    color: #888888;
+}
+.plan{
+    font-weight: 600;
+}
+.pro-plan{
+    color: #93C5FD;
+}
+.price{
+    font-size: 44px;
+    color: #0D1B2A;
+}
+.pro-price{
+    color: white;
+}
+.person{
+    font-weight: 400;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5E7EB;
+}
+.pro-person{
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.list-info{
+    padding-left: 18px;
+    display: grid;
+    gap: 10px;
+    color: #333333;
+}
+.pro-list-info{
+    color: rgba(255, 255, 255, 0.8);
+}
+.list-info li::marker{
+    color: #2563EB;
+}
+.pro-list-info li::marker{
+    color: #60A5FA;
+}
+.price-card button{
+    padding: 11px 0px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn-standard{
+    border: 1px solid #2563EB;
+    background-color: white;
+    color: #2563EB;
+}
+.btn-pro{
+    background-color: #2563EB;
+    color: white;
+    border: none;
+}
+.btn-team{
+    background: none;
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}
 /* Secure your spot */
-.section-secure-spot{
+/* .section-secure-spot{
     display: grid;
     justify-content: center;
 }
@@ -128,7 +227,7 @@ header p{
     font-size: 48px;
     color: #0D1B2A;
     margin-bottom: 12px;
-}
+} */
 
 /* Price Card */
 /* .price-container{
